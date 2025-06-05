@@ -87,6 +87,17 @@
 
   - Hiển thị chi tiết thông tin commit hiện tại hoặc commit cụ thể (nếu chỉ định).
 
+- **`git cherry-pick <commit-id>`**:
+
+  - Áp dụng một commit cụ thể từ một nhánh khác vào nhánh hiện tại.
+  - Ví dụ:
+
+    ```
+    git cherry-pick abc1234
+    ```
+
+  - Hữu ích khi bạn muốn chọn một thay đổi cụ thể mà không cần merge toàn bộ nhánh.
+
 ## Mẹo sử dụng
 
 - Dùng `git rebase` để giữ lịch sử commit sạch sẽ, nhưng cần cẩn thận với xung đột.
